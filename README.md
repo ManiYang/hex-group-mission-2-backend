@@ -14,4 +14,5 @@
   DATABASE=mongodb://username:<password>@host:port/db?options...
   DATABASE_PASSWORD=my_password
   ```
-  
+
+此外也可設定 `PORT`

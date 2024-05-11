@@ -6,7 +6,7 @@ const postSchema = new mongoose.Schema(
             type: String,
             required: [true, '發文者名稱 userName 未提供']
         },
-        userPhoto: {
+        userPhotoUrl: {
             type: String,
             required: [true, '發文者照片 userPhtot 未提供']
         },
@@ -18,7 +18,7 @@ const postSchema = new mongoose.Schema(
             type: String,
             required: [true, '發文內容 content 未提供']
         },
-        image: {
+        imageUrl: {
             type: String,
             default: ''
         }

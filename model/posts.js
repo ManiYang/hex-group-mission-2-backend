@@ -8,7 +8,7 @@ const postSchema = new mongoose.Schema(
         },
         userPhotoUrl: {
             type: String,
-            required: [true, '發文者照片 userPhtot 未提供']
+            required: [true, '發文者照片 userPhotoUrl 未提供']
         },
         createdAt: {
             type: Date,

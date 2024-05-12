@@ -2,5 +2,16 @@
 
 GET {{host}}/posts
 
+###
+
+GET {{host}}/posts
+?timeSort=asc
+
+###
+
+GET {{host}}/posts
+?q=learn
+&timeSort=asc
+
 
 

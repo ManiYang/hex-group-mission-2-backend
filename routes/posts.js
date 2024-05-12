@@ -1,14 +1,15 @@
 var express = require('express');
 var router = express.Router();
+const Post = require('../model/posts')
 
-router.get('/', function(req, res, next) {
+router.get('/', async (req, res, next) => {
     res.status(200).json({
         status: 'success',
         data: []
     })
 });
 
-router.post('/', (req, res, next) => {
+router.post('/', async (req, res, next) => {
     // todo
 })
 

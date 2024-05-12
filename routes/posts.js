@@ -8,4 +8,8 @@ router.get('/', function(req, res, next) {
     })
 });
 
+router.post('/', (req, res, next) => {
+    // todo
+})
+
 module.exports = router;
